@@ -98,6 +98,27 @@ h1{
     border: 1px solid green;
 }
 
+/* portfolio section css */
+
+.servicesText2.card {
+    height: 350px;
+    cursor: pointer;
+  }
+.servicesIcon2 {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon2 {
+    color:#007bff;
+}
+.servicesText2:hover {
+    border: 1px solid #007bff;
+}
+
 /* social icons */
 
 .icons {
