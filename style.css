@@ -28,6 +28,10 @@ span{
     color: white;
 }
 
+p{
+    text-align: justify;
+}
+
 /* text css above hero image*/
 .hero_title {
     font-size: 4.5rem;
@@ -56,7 +60,12 @@ h1{
 .button{
     position: absolute;
     bottom: 0px;
-    margin-left: 60px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+}
+.admin-button{
+    position: absolute;
+    bottom: 0px;
     margin-bottom: 15px;
 }
 
