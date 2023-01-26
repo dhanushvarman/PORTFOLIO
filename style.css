@@ -1,3 +1,39 @@
+
+.whatsApp{
+    color: #25d366 !important;
+    display: flex;
+    position: fixed;
+    top: 300px;
+    z-index: 1;
+    font-size:x-large;
+    cursor: pointer;
+}
+
+.github-nav:hover{
+    color: #c8c8c8 !important;
+}
+
+.linkedin-nav:hover{
+    color: #0a66ca !important;
+}
+
+.whatsapp-nav:hover{
+    color: #25d366 !important;
+}
+
+@media (min-width:801px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { 
+    .whatsApp{
+        left: 1000px;
+    }
+ }
+@media (min-width:1281px) { 
+    .whatsApp{
+        left: 1450px;
+    }
+ }
+
+
 .bgimage {
     height:100vh;
     background: url('https://images.hdqwalls.com/wallpapers/mountains-landscape-dark-nature-4k-i0.jpg');
@@ -178,7 +214,7 @@ h1{
 }
 
 .link:nth-child(1)::before {
-    background: #25d366;
+    background: purple;
 }
 
 .link:nth-child(2)::before {
@@ -208,8 +244,8 @@ h1{
     transform: rotate(-45deg);
 }
 
-.link:hover i.instagram {
-    color: #c32aa3;
+.link:hover i.github {
+    color: purple;
 }
 
 .link:hover i.twitter {
